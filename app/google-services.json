@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084916399582",
+    "firebase_url": "https://endless-codex-291218.firebaseio.com",
+    "project_id": "endless-codex-291218",
+    "storage_bucket": "endless-codex-291218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084916399582:android:68c952fda826d3f70e714f",
+        "android_client_info": {
+          "package_name": "com.example.evaluacion_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084916399582-ffmh5u1k31qhodha7qt4qjiq8qgm86dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDze-vJGUINHVuwtW2xf4jrp8p2hnnWaBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084916399582-ffmh5u1k31qhodha7qt4qjiq8qgm86dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

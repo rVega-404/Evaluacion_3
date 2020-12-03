@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         String usuario = edTxtUsuario.getText().toString();
         String pass = edTxtPass.getText().toString();
 
-        if(usuario.equalsIgnoreCase("android") && pass.equalsIgnoreCase("123") ||
-        usuario.equals("") && pass.equals("")){
+        if(usuario.equalsIgnoreCase("android") && pass.equalsIgnoreCase("123")){
             Intent intent = new Intent(this, Menu_act.class);
             startActivity(intent);
         }

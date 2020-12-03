@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else {
-            Toast.makeText(this, "Usuario y/p Constraseña Incorrecta(s)", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Usuario y/o Constraseña Incorrecta(s)", Toast.LENGTH_LONG).show();
         }
     }
 }

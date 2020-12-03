@@ -25,10 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
         if(usuario.equalsIgnoreCase("android") && pass.equalsIgnoreCase("123")){
             Intent intent = new Intent(this, Menu_act.class);
+            edTxtPass.setText("");
+            edTxtUsuario.setText("");
             startActivity(intent);
         }
         else {
             Toast.makeText(this, "Usuario y/o Constraseña Incorrecta(s)", Toast.LENGTH_LONG).show();
+            edTxtPass.setText("");
+            edTxtUsuario.setText("");
         }
     }
 }

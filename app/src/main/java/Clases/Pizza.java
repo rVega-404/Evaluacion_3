@@ -7,8 +7,8 @@ public class Pizza {
 
     public Pizza() {
         this.promoPizza = 5900;
-        this.maxPizza = 12990;
-        this.pizzaMaster = 18500;
+        this.maxPizza = 18500;
+        this.pizzaMaster = 12990;
     }
 
     public int getPromoPizza() {
